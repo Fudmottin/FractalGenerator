@@ -12,3 +12,5 @@ code easier to read also.
 Use this code how you like.
 Attempt no copyrights.
 Use it together. Use it in peace.
+
+Create a new command line OS X app in Swift to use the files and see how it runs.
