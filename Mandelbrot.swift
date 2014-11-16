@@ -15,9 +15,7 @@ func + (left: Complex, right: Complex) -> Complex {
 }
 
 func * (left: Complex, right: Complex) -> Complex {
-    let r2 = left.r * right.r
-    let i2 = left.i * right.i
-    return Complex(r: r2 - i2, i: 2.0 * left.r * right.i)
+    return Complex(r: left.r*right.r - left.i*right.i, i: left.r*right.i + left.i*right.r)
 }
 
 func > (left: Complex, right: Double) -> Bool {
